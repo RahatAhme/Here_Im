@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_loc"
+        android:icon="@drawable/location"
+        android:title="Location" />
+
+    <item
+        android:id="@+id/nav_calling"
+        android:icon="@drawable/call"
+        android:title="Emergency Calling" />
+
+    <item
+        android:id="@+id/nav_message"
+        android:icon="@drawable/message"
+        android:title="Message" />
+    <item
+        android:id="@+id/nav_sos"
+        android:icon="@drawable/sos"
+        android:title="SOs" />
+</menu>

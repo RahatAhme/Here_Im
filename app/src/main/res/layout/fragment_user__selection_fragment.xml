@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_home"
+    android:orientation="vertical"
+    tools:context=".User_Selection_fragment">
+
+    <Spinner
+        android:id="@+id/userlist_spinner_id"
+        android:layout_width="255dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginBottom="128dp"
+        android:background="@drawable/login_as"
+        android:gravity="center"
+        android:padding="40dp"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+    </Spinner>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="98dp"
+        android:layout_height="27dp"
+        android:text="Log IN As"
+        android:textColor="#FCFBFB"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/userlist_spinner_id"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/userlist_spinner_id" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

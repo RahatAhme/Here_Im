@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center"
+    android:background="@drawable/background_im"
+    tools:context=".AroundSound">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/log_in"
+        android:text="Start Recording"
+        android:textAllCaps="false"
+        android:textColor="#FFf"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/recordStartBtn_id"/>
+    <Button
+        android:layout_below="@id/recordStartBtn_id"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/log_in"
+        android:text="Play Recording"
+        android:textAllCaps="false"
+        android:textColor="#FFf"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:id="@+id/playRecordBtn_id"/>
+
+
+</RelativeLayout>
